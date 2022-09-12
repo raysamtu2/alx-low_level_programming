@@ -1,46 +1,36 @@
 #include <stdio.h>
-
-
-
 /**
+ * main - print if the number is postive, zero, or negative
 
- * main - Entry point
 
  *
+ * Description: using the main function
 
- * Return: Always 0 (Success)
+ * this program prints "Programming is positive, zero, or negative
+
+ * Return: 0
 
  */
-
 int main(void)
 
 {
 
-	char digits;
+char c;
 
+for (c = '0'; c <= '9'; c++)
 
-
-	for (digit = '0'; digit <= '9'; digits++)
-
-	{
-
-		putchar(digits);
-
-	}
-
-	for (digit = 'a'; digit <= 'f'; digits++)
-
-	{
-
-		putchar(digits);
-
-	}
-
-	putchar('\n');
-
-	return (0);
-
+{
+	putchar(c);
 }
 
-iaz-xzbz-djh
+for (c = 'a'; c <= 'f'; c++)
 
+{
+	putchar(c);
+}
+
+putchar('\n');
+
+return (0);
+
+}
