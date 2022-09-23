@@ -1,36 +1,21 @@
 #include <stdio.h>
+
 /**
- * main - print if the number is postive, zero, or negative
-
-
+ * main - Prints all the numbers of base 16 in lowercase.
  *
- * Description: using the main function
-
- * this program prints "Programming is positive, zero, or negative
-
- * Return: 0
-
+ * Return: Always 0.
  */
 int main(void)
-
 {
+	int num;
+	char letter;
 
-char c;
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
-for (c = '0'; c <= '9'; c++)
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
-{
-	putchar(c);
-}
+	putchar('\n');
 
-for (c = 'a'; c <= 'f'; c++)
-
-{
-	putchar(c);
-}
-
-putchar('\n');
-
-return (0);
-
-}
+}	return (0);
