@@ -3,8 +3,7 @@
  * Auth: sam tech                                                                                                                     
  */                                                                                                                                   
                                                                                                                                       
-#include "main.h"                                                                                                                     
-                                                                                                                                      
+#include "main.h"                                                                                                                                             
 int find_sqrt(int num, int root);                                                                                                     
 int _sqrt_recursion(int n);                                                                                                           
                                                                                                                                       
@@ -19,14 +18,13 @@ int _sqrt_recursion(int n);
 int find_sqrt(int num, int root)                                                                                                      
 {                                                                                                                                     
         if ((root * root) == num)                                                                                                     
-                return (root);                                                                                                        
-                                                                                                                                      
+                return (root);                                                                                                                                                               
         if (root == num / 2)                                                                                                          
                 return (-1);                                                                                                          
                                                                                                                                       
         return (find_sqrt(num, root + 1));                                                                                            
 }
-                                                                                                                                      
+                                                                                                                   
 /**                                                                                                                                   
  * _sqrt_recursion - Returns the natural square root of a number.                                                                     
  * @n: The number to return the square root of.                                                                                       
@@ -36,7 +34,7 @@ int find_sqrt(int num, int root)
  */                                                                                                                                   
 int _sqrt_recursion(int n)                                                                                                            
 {                                                                                                                                     
-        int root = 0;                                                                                                                 
+	int root = 0;                                                                                                                 
                                                                                                                                       
         if (n < 0)                                                                                                                    
                 return (-1);                                                                                                          
