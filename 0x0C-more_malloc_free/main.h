@@ -2,7 +2,10 @@
 #define MAIN_H
 
 /**
- * File: MAIN.h
+ * File: main.h
+ * Auth: Alagwu David - ALX -SE COHORT 9
+ * Desc: Header file containing prototypes for all functions
+ *       used in the 0x0B-more_malloc_free directory.
  */
 
 int _putchar(char c);
